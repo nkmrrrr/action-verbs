@@ -1,12 +1,45 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# タスクをアクション動詞で書くメリット
 
-To start the slide show:
+このプロジェクトは[Slidev](https://github.com/slidevjs/slidev)を使用したプレゼンテーションで、タスク管理におけるアクション動詞の効果的な使い方とそのメリットについて解説しています。
 
-- `pnpm install`
-- `pnpm dev`
-- visit <http://localhost:3030>
+## 概要
 
-Edit the [slides.md](./slides.md) to see the changes.
+このプレゼンテーションでは、タスク管理における明確なアクション動詞の使用がもたらす以下のようなメリットを紹介しています：
 
-Learn more about Slidev at the [documentation](https://sli.dev/).
-# action-verbs
+- タスクの具体性と明確さの向上
+- 実行のしやすさ
+- 進捗管理のしやすさ
+- チーム内コミュニケーションの効率化
+
+## 使い方
+
+スライドショーを開始するには：
+
+```bash
+# 依存パッケージのインストール
+npm install
+# または
+yarn install
+
+# 開発サーバーの起動
+npm run dev
+# または
+yarn dev
+```
+
+ブラウザで <http://localhost:3030> にアクセスするとスライドショーが表示されます。
+
+## カスタマイズ
+
+- スライドの内容を編集するには [slides.md](./slides.md) ファイルを修正してください
+- コンポーネントのカスタマイズは `components/` ディレクトリ内のファイルを編集してください
+- テーマや設定の変更は `slides.md` の先頭にあるフロントマターセクションで行えます
+
+## デプロイ
+
+このプロジェクトは Netlify や Vercel にデプロイすることができます（設定ファイルはすでに含まれています）。
+
+## 参考リソース
+
+- [Slidev 公式ドキュメント](https://sli.dev/)
+- [GitHub - slidevjs/slidev](https://github.com/slidevjs/slidev)
